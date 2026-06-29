@@ -27,5 +27,5 @@ Le site peut être déployé sur GitHub Pages directement depuis la branche `mai
 ## Contact
 
 - Email : edouard.pradie@epitech.eu
-- LinkedIn : [edouard-pradie]([https://www.linkedin.com/in/edouard-pradie](https://www.linkedin.com/in/edouard-pradie-bb7121237/))
+- LinkedIn : [edouard-pradie](https://www.linkedin.com/in/edouard-pradie-bb7121237/)
 - GitHub : [EdouardPradie](https://github.com/EdouardPradie)
