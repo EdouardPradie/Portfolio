@@ -7,14 +7,16 @@
 const toggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');
 
-toggle.addEventListener('click', () => {
-  navLinks.classList.toggle('open');
-});
+if (toggle && navLinks) {
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+  });
 
-/* Close nav when a link is clicked on mobile */
-navLinks.querySelectorAll('a').forEach(link => {
-  link.addEventListener('click', () => navLinks.classList.remove('open'));
-});
+  /* Close nav when a link is clicked on mobile */
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => navLinks.classList.remove('open'));
+  });
+}
 
 /* ─── Scroll-reveal ─────────────────────────────────────────────── */
 const revealTargets = [
@@ -47,9 +49,11 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 /* ─── Header shadow on scroll ───────────────────────────────────── */
 const header = document.getElementById('header');
 window.addEventListener('scroll', () => {
-  header.style.boxShadow = window.scrollY > 8
-    ? '0 4px 24px rgba(0,0,0,.5)'
-    : 'none';
+  if (header) {
+    header.style.boxShadow = window.scrollY > 8
+      ? '0 4px 24px rgba(0,0,0,.5)'
+      : 'none';
+  }
 });
 
 /* ─── Active nav link highlight ────────────────────────────────── */
