@@ -20,9 +20,9 @@ Mon portfolio personnel présentant mon parcours, mes compétences et mes projet
 - Design responsive (mobile-friendly)
 - API GitHub pour charger les projets dynamiquement
 
-## Déploiement
+## Le Site
 
-Le site peut être déployé sur GitHub Pages directement depuis la branche `main`.
+[Vous pouvez accéder au site en clicant ici!](https://edouardpradie.github.io/Portfolio/)
 
 ## Contact
 
