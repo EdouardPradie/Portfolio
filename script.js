@@ -17,6 +17,7 @@ const langColors = {
 
 // Project descriptions in French
 const projectDescriptions = {
+    'Cellular-Automaton': 'Projet de fin d\'études - Implémentation d\'automates cellulaires avec visualisation interactive',
     'Zappy': 'Jeu joué par des intelligences artificielles en réseau (Serveur: C, Graphique: C++, IA: Python)',
     'Rugby_Simulator': 'Simulateur de rugby avec modélisation de matchs et statistiques',
     'Top14_ML_DCU_Project': 'Découverte du Machine Learning avec un dataset du Top14 (Projet DCU)',
@@ -39,7 +40,7 @@ const projectDescriptions = {
 
 // Featured projects (show first)
 const featuredProjects = [
-    'Zappy', 'Rugby_Simulator', 'Top14_ML_DCU_Project', 'RTX',
+    'Cellular-Automaton', 'Zappy', 'Rugby_Simulator', 'Top14_ML_DCU_Project', 'RTX',
     'Gomoku', 'DDScan', 'Lenia', 'ImageCompressor'
 ];
 

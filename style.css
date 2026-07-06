@@ -1,7 +1,10 @@
 :root {
-    --primary: #c0392b;
-    --primary-light: #e74c3c;
-    --primary-dark: #96281b;
+    --primary: #E91E63;
+    --primary-light: #F06292;
+    --primary-dark: #C2185B;
+    --secondary: #2196F3;
+    --secondary-light: #64B5F6;
+    --secondary-dark: #1565C0;
     --text: #2c3e50;
     --text-light: #7f8c8d;
     --bg: #ffffff;
@@ -118,7 +121,7 @@ body {
     justify-content: center;
     text-align: center;
     padding: 6rem 2rem 4rem;
-    background: linear-gradient(135deg, var(--bg) 0%, var(--bg-alt) 100%);
+    background: var(--bg);
 }
 
 .hero-subtitle {
@@ -132,10 +135,7 @@ body {
     font-size: clamp(2.5rem, 6vw, 4.5rem);
     font-weight: 800;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, var(--text) 0%, var(--primary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--primary);
 }
 
 .hero-description {
@@ -181,12 +181,12 @@ body {
 }
 
 .btn-secondary {
-    background: #0077b5;
+    background: var(--secondary);
     color: white;
 }
 
 .btn-secondary:hover {
-    background: #005582;
+    background: var(--secondary-dark);
     transform: translateY(-2px);
     box-shadow: var(--shadow-hover);
 }
