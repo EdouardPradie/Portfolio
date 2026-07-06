@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edouard Pradie - CV ATS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Times New Roman', Georgia, serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #000;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+            background: white;
+        }
+        .back-link {
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            background: #c0392b;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            z-index: 100;
+        }
+        .back-link:hover {
+            background: #96281b;
+        }
+        h1 {
+            font-size: 22pt;
+            text-align: center;
+            margin-bottom: 2pt;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 12pt;
+            font-size: 10pt;
+        }
+        .contact-info a {
+            color: #000;
+            text-decoration: none;
+        }
+        h2 {
+            font-size: 12pt;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            margin-top: 14pt;
+            margin-bottom: 6pt;
+            padding-bottom: 2pt;
+        }
+        h3 {
+            font-size: 11pt;
+            margin-top: 6pt;
+            margin-bottom: 2pt;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        .job-title {
+            font-weight: bold;
+        }
+        .job-date {
+            font-style: italic;
+            font-size: 10pt;
+        }
+        .job-company {
+            font-style: italic;
+        }
+        ul {
+            margin-left: 18pt;
+            margin-top: 2pt;
+            margin-bottom: 4pt;
+        }
+        li {
+            margin-bottom: 1pt;
+        }
+        .skills-section {
+            margin-top: 4pt;
+        }
+        .skill-line {
+            margin-bottom: 3pt;
+        }
+        .skill-line strong {
+            display: inline;
+        }
+        .education-item {
+            margin-bottom: 6pt;
+        }
+        .print-btn {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: #2c3e50;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            z-index: 100;
+        }
+        .print-btn:hover {
+            background: #1a252f;
+        }
+        @media print {
+            body {
+                padding: 0;
+            }
+            .back-link, .print-btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Portfolio</a>
+    <button class="print-btn" onclick="window.print()">Imprimer / PDF</button>
+
+    <h1>EDOUARD PRADIE</h1>
+    <div class="contact-info">
+        Bordeaux, France | +33 6 89 12 44 24 | <a href="mailto:edouard.pradie@epitech.eu">edouard.pradie@epitech.eu</a><br>
+        <a href="https://www.linkedin.com/in/edouard-pradie">linkedin.com/in/edouard-pradie</a> | <a href="https://github.com/EdouardPradie">github.com/EdouardPradie</a> | <a href="https://edouardpradie.github.io/Portfolio/">edouardpradie.github.io/Portfolio</a>
+    </div>
+
+    <h2>Profil</h2>
+    <p>Ingénieur en développement informatique diplômé d'Epitech (RNCP 7), spécialisé en Data Science et Intelligence Artificielle. Expérience en développement full-stack, analyse de données et machine learning. Bilingue français/anglais (C1).</p>
+
+    <h2>Expérience Professionnelle</h2>
+
+    <div class="job-header">
+        <span class="job-title">Data Scientist - Stage</span>
+        <span class="job-date">Mars 2026 - Août 2026</span>
+    </div>
+    <div class="job-company">ArianeGroup, France</div>
+    <ul>
+        <li>Application de modèles de Machine Learning et Deep Learning sur des données industrielles</li>
+        <li>Analyse et traitement de données complexes pour l'industrie spatiale</li>
+        <li>Développement de solutions d'intelligence artificielle en Python</li>
+        <li>Collaboration avec des équipes pluridisciplinaires (ingénieurs, data engineers)</li>
+    </ul>
+
+    <div class="job-header">
+        <span class="job-title">Développeur Full-Stack - Stage</span>
+        <span class="job-date">2024 (4 mois)</span>
+    </div>
+    <div class="job-company">Rocketfid, France (Télétravail)</div>
+    <ul>
+        <li>Développement d'applications web avec React, Vue.js et PHP</li>
+        <li>Déploiement et gestion d'infrastructure avec Kubernetes</li>
+        <li>Communication directe avec les clients pour le recueil de besoins</li>
+    </ul>
+
+    <div class="job-header">
+        <span class="job-title">Analyste de Données - Stage</span>
+        <span class="job-date">2022 (2,5 mois)</span>
+    </div>
+    <div class="job-company">Cegelec Space, France</div>
+    <ul>
+        <li>Analyse de données avec Python et SQL</li>
+        <li>Gestion d'un centre spatial</li>
+        <li>Acquisition de notions en ingénierie spatiale</li>
+    </ul>
+
+    <h2>Formation</h2>
+
+    <div class="education-item">
+        <div class="job-header">
+            <span class="job-title">Epitech - Expert en Ingénierie Logicielle (RNCP 7)</span>
+            <span class="job-date">2021 - 2026</span>
+        </div>
+        <ul>
+            <li>Titre d'expert en ingénierie logicielle (Bac+5)</li>
+            <li>Langages : Python, C, C++, Haskell, JavaScript/TypeScript</li>
+            <li>Président du Bureau des Étudiants (BDE)</li>
+        </ul>
+    </div>
+
+    <div class="education-item">
+        <div class="job-header">
+            <span class="job-title">Dublin City University (DCU) - Année Erasmus</span>
+            <span class="job-date">2024 - 2025</span>
+        </div>
+        <ul>
+            <li>Spécialisation en Data Analyse et Intelligence Artificielle</li>
+            <li>Immersion en environnement anglophone</li>
+        </ul>
+    </div>
+
+    <div class="education-item">
+        <div class="job-header">
+            <span class="job-title">Lycée Michel Montaigne - Baccalauréat</span>
+            <span class="job-date">2018 - 2021</span>
+        </div>
+        <ul>
+            <li>Spécialité Mathématiques / NSI (informatique)</li>
+            <li>Option Mathématiques expert</li>
+        </ul>
+    </div>
+
+    <h2>Compétences Techniques</h2>
+    <div class="skills-section">
+        <div class="skill-line"><strong>Langages :</strong> Python, C, C++, JavaScript, TypeScript, Haskell, PHP, SQL, Elixir, Swift, Rust</div>
+        <div class="skill-line"><strong>Frameworks :</strong> React, Vue.js, Flutter, Laravel, Node.js</div>
+        <div class="skill-line"><strong>Data Science :</strong> Machine Learning, Deep Learning, Pandas, NumPy, Scikit-learn, TensorFlow</div>
+        <div class="skill-line"><strong>DevOps :</strong> Docker, Kubernetes, Git, CI/CD</div>
+        <div class="skill-line"><strong>Méthodologies :</strong> Agile/SCRUM, Travail en équipe, Communication client</div>
+        <div class="skill-line"><strong>Langues :</strong> Français (natif), Anglais (C1)</div>
+    </div>
+
+    <h2>Projets Significatifs</h2>
+
+    <div class="job-header">
+        <span class="job-title">Zappy - Jeu en réseau avec IA</span>
+        <span class="job-date">Epitech (7 semaines)</span>
+    </div>
+    <ul>
+        <li>Jeu multijoueur avec intelligences artificielles (Serveur: C, Graphique: C++, IA: Python)</li>
+    </ul>
+
+    <div class="job-header">
+        <span class="job-title">Top14 Machine Learning</span>
+        <span class="job-date">DCU Project</span>
+    </div>
+    <ul>
+        <li>Prédiction de résultats de rugby avec des modèles de Machine Learning (Python, Jupyter)</li>
+    </ul>
+
+    <div class="job-header">
+        <span class="job-title">Area - Application connectée</span>
+        <span class="job-date">Epitech (7 semaines)</span>
+    </div>
+    <ul>
+        <li>Application web et mobile (Flutter, React, Laravel) pour automatiser des actions</li>
+    </ul>
+
+    <h2>Centres d'Intérêt</h2>
+    <p>Rugby | Triathlon | Ingénierie spatiale | Mathématiques | Aéronautique</p>
+</body>
+</html>
