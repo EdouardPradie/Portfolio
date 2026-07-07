@@ -120,7 +120,6 @@ body {
     justify-content: center;
     text-align: center;
     padding: 6rem 2rem 4rem;
-    background: linear-gradient(135deg, var(--bg) 0%, var(--bg-alt) 100%);
 }
 
 .hero-subtitle {
