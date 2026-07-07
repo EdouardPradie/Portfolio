@@ -293,7 +293,7 @@ export const content = {
     },
     cami: {
       title: 'CAMI - Projet de Fin d\'Études',
-      subtitle: 'Intelligence Intelligente des Automates Cellulaires',
+      subtitle: 'Intelligence Machine des Automates Cellulaires',
       description: 'Projet capstone implémentant des automates cellulaires avec des composants d\'IA. Une étude sophistiquée de l\'émergence et de la complexité par simulation informatique.',
       github: 'Voir sur GitHub',
       repository: 'https://github.com/EdouardPradie/Cellular-Automaton',
