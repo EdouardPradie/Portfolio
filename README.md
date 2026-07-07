@@ -1,31 +1,36 @@
 # Portfolio - Edouard Pradie
 
-Mon portfolio personnel présentant mon parcours, mes compétences et mes projets.
+My personal portfolio showcasing my experience, skills and projects.
 
-## Contenu
+## Contents
 
-- **index.html** - Page principale du portfolio avec :
-  - Présentation personnelle
-  - Expérience professionnelle
-  - Formation
-  - Compétences techniques
-  - Projets GitHub (chargés dynamiquement)
-  - Centres d'intérêt
+- **index.html** - Main portfolio page with:
+  - Personal introduction
+  - Professional experience
+  - Education
+  - Technical skills
+  - GitHub projects (loaded dynamically)
+  - Interests
 
-- **cv.html** - CV au format ATS (optimisé pour les systèmes de suivi des candidatures)
+- **cv.html** - Resume in ATS format (optimized for applicant tracking systems)
+- **cv_en.html** - English version CV
+- **cv_fr.html** - French version CV
+
+- **index_fr.html** - French version of the portfolio
+- **index_en.html** - English version of the portfolio
 
 ## Technologies
 
-- HTML5 / CSS3 / JavaScript vanilla
-- Design responsive (mobile-friendly)
-- API GitHub pour charger les projets dynamiquement
+- HTML5 / CSS3 / Vanilla JavaScript
+- Responsive design (mobile-friendly)
+- GitHub API to dynamically load projects
 
-## Le Site
+## Website
 
-[Vous pouvez accéder au site en clicant ici!](https://edouardpradie.github.io/Portfolio/)
+[Visit the portfolio here!](https://edouardpradie.github.io/Portfolio/)
 
 ## Contact
 
-- Email : edouard.pradie@epitech.eu
-- LinkedIn : [edouard-pradie](https://www.linkedin.com/in/edouard-pradie-bb7121237/)
-- GitHub : [EdouardPradie](https://github.com/EdouardPradie)
+- Email: edouard.pradie@epitech.eu
+- LinkedIn: [edouard-pradie](https://www.linkedin.com/in/edouard-pradie-bb7121237/)
+- GitHub: [EdouardPradie](https://github.com/EdouardPradie)
