@@ -1,7 +1,9 @@
 :root {
-    --primary: #c0392b;
-    --primary-light: #e74c3c;
-    --primary-dark: #96281b;
+    --primary: #0066cc;
+    --primary-light: #3385dd;
+    --primary-dark: #004499;
+    --accent-orange: #ff9500;
+    --accent-pink: #ff6b9d;
     --text: #2c3e50;
     --text-light: #7f8c8d;
     --bg: #ffffff;
@@ -24,7 +26,7 @@ html {
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Verdana', -apple-system, BlinkMacSystemFont, sans-serif;
     color: var(--text);
     line-height: 1.7;
     background: var(--bg);
@@ -132,7 +134,7 @@ body {
     font-size: clamp(2.5rem, 6vw, 4.5rem);
     font-weight: 800;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, var(--text) 0%, var(--primary) 100%);
+    background: var(--primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
