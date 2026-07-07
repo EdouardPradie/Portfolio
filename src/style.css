@@ -125,7 +125,7 @@ body {
 
 .hero-subtitle {
     font-size: 1.1rem;
-    color: var(--primary);
+    color: var(--bg);
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
@@ -134,7 +134,7 @@ body {
     font-size: clamp(2.5rem, 6vw, 4.5rem);
     font-weight: 800;
     margin-bottom: 1rem;
-    background: var(--primary);
+    background: var(--bg);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -142,13 +142,13 @@ body {
 
 .hero-description {
     font-size: 1.3rem;
-    color: var(--text-light);
+    color: var(--bg);
     margin-bottom: 0.5rem;
 }
 
 .hero-info {
     font-size: 1rem;
-    color: var(--text-light);
+    color: var(--bg);
     margin-bottom: 2rem;
 }
 
@@ -172,12 +172,12 @@ body {
 }
 
 .btn-primary {
-    background: var(--text);
+    background: #0077b5;
     color: white;
 }
 
 .btn-primary:hover {
-    background: var(--primary);
+    background: #005582;
     transform: translateY(-2px);
     box-shadow: var(--shadow-hover);
 }
