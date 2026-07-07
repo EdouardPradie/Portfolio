@@ -15,27 +15,27 @@ const langColors = {
     'Just': '#384d54'
 };
 
-// Project descriptions in English
+// Project descriptions in French
 const projectDescriptions = {
-    'Cellular-Automaton': 'CAMI - Capstone Project (Cellular Automata)',
-    'Zappy': 'Game played by AI with network capabilities (Server: C, Graphics: C++, AI: Python)',
-    'Rugby_Simulator': 'Rugby simulator with match modeling and statistics',
-    'Top14_ML_DCU_Project': 'Introduction to Machine Learning with Top14 dataset (DCU Project)',
-    'Soundvibe_DCU_Project': 'Music web application (DCU Project)',
-    'DDScan': 'Mobile/web scan reading application',
-    'Gomoku': 'Artificial intelligence for the Gomoku game (Epitech Project)',
-    'RTX': 'Ray tracing engine in C++',
-    'Lenia': 'Implementation of Lenia game of life in Rust',
-    'NTS': 'Logic circuit simulator in C++',
-    'ImageCompressor': 'Image compressor using K-means algorithm (Haskell)',
-    'Robot_arm': 'Arduino system for controlling a mechanical arm',
-    'Cryptographie': 'Implementation of cryptography algorithms in Python',
-    'Lemin': 'Optimal path finding algorithm (Epitech Project)',
-    'myTeams': 'Network messaging application in C',
-    'NI_elixir': 'Functional programming project in Elixir',
-    'Wolfram': 'Wolfram cellular automaton in Haskell',
-    'myMarvin': 'CI/CD bot with Jenkins (Groovy)',
-    'infin_add': 'Addition of infinitely large numbers in C'
+    'Cellular-Automaton': 'CAMI - Projet de fin d\'études (Automates cellulaires)',
+    'Zappy': 'Jeu joué par des intelligences artificielles en réseau (Serveur: C, Graphique: C++, IA: Python)',
+    'Rugby_Simulator': 'Simulateur de rugby avec modélisation de matchs et statistiques',
+    'Top14_ML_DCU_Project': 'Découverte du Machine Learning avec un dataset du Top14 (Projet DCU)',
+    'Soundvibe_DCU_Project': 'Application web de musique (Projet DCU)',
+    'DDScan': 'Application mobile/web de lecture de scans',
+    'Gomoku': 'Intelligence artificielle pour le jeu Gomoku (Projet Epitech)',
+    'RTX': 'Moteur de ray tracing en C++',
+    'Lenia': 'Implémentation du jeu de la vie Lenia en Rust',
+    'NTS': 'Simulateur de circuits logiques en C++',
+    'ImageCompressor': 'Compresseur d\'images utilisant l\'algorithme K-means (Haskell)',
+    'Robot_arm': 'Système Arduino pour contrôler un bras mécanique',
+    'Cryptographie': 'Implémentation d\'algorithmes de cryptographie en Python',
+    'Lemin': 'Algorithme de recherche de chemin optimal (Projet Epitech)',
+    'myTeams': 'Application de messagerie en réseau en C',
+    'NI_elixir': 'Projet de programmation fonctionnelle en Elixir',
+    'Wolfram': 'Automate cellulaire de Wolfram en Haskell',
+    'myMarvin': 'Bot CI/CD avec Jenkins (Groovy)',
+    'infin_add': 'Addition de nombres infiniment grands en C'
 };
 
 // Featured projects (show first)
@@ -66,7 +66,7 @@ async function loadProjects() {
         });
 
         grid.innerHTML = filteredRepos.map(repo => {
-            const description = projectDescriptions[repo.name] || repo.description || 'Epitech Project';
+            const description = projectDescriptions[repo.name] || repo.description || 'Projet Epitech';
             const langColor = langColors[repo.language] || '#858585';
 
             return `
@@ -90,8 +90,8 @@ async function loadProjects() {
     } catch (error) {
         grid.innerHTML = `
             <div class="project-card">
-                <h3>Unable to load projects</h3>
-                <p>Visit <a href="https://github.com/EdouardPradie" target="_blank">my GitHub</a> to see my projects.</p>
+                <h3>Impossible de charger les projets</h3>
+                <p>Visitez <a href="https://github.com/EdouardPradie" target="_blank">mon GitHub</a> pour voir mes projets.</p>
             </div>
         `;
     }
