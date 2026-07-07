@@ -21,7 +21,6 @@
 </template>
 
 <script>
-import { ref, onMounted } from 'vue'
 import { content } from '../data'
 
 const projectDescriptions = {
@@ -71,11 +70,15 @@ export default {
   props: {
     language: String
   },
-  setup(props) {
-    const projects = ref([])
-    const loading = ref(true)
-
-    const loadProjects = async () => {
+  data() {
+    return {
+      projects: [],
+      loading: true,
+      t: content[this.language]
+    }
+  },
+  methods: {
+    async loadProjects() {
       try {
         const response = await fetch('https://api.github.com/users/EdouardPradie/repos?per_page=30&sort=updated')
         const repos = await response.json()
@@ -95,30 +98,25 @@ export default {
         })
 
         // Enhance with descriptions
-        projects.value = filteredRepos.map(repo => ({
+        this.projects = filteredRepos.map(repo => ({
           ...repo,
           description: projectDescriptions[repo.name] || repo.description || 'Epitech Project'
         }))
       } catch (error) {
         console.error('Failed to load projects:', error)
       } finally {
-        loading.value = false
+        this.loading = false
       }
+    },
+    formatName(name) {
+      return name.replace(/_/g, ' ')
+    },
+    getLanguageColor(language) {
+      return langColors[language] || '#858585'
     }
-
-    const formatName = (name) => name.replace(/_/g, ' ')
-
-    const getLanguageColor = (language) => langColors[language] || '#858585'
-
-    onMounted(loadProjects)
-
-    return {
-      projects,
-      loading,
-      formatName,
-      getLanguageColor,
-      t: content[props.language]
-    }
+  },
+  mounted() {
+    this.loadProjects()
   },
   watch: {
     language(newLang) {

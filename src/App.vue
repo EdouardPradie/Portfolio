@@ -14,7 +14,6 @@
 </template>
 
 <script>
-import { ref } from 'vue'
 import Navbar from './components/Navbar.vue'
 import Hero from './components/Hero.vue'
 import About from './components/About.vue'
@@ -40,11 +39,9 @@ export default {
     Interests,
     Footer
   },
-  setup() {
-    const language = ref('en')
-
+  data() {
     return {
-      language
+      language: 'en'
     }
   }
 }

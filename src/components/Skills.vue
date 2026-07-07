@@ -21,9 +21,9 @@ export default {
   props: {
     language: String
   },
-  setup(props) {
+  data() {
     return {
-      t: content[props.language]
+      t: content[this.language]
     }
   },
   watch: {

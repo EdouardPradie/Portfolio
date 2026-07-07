@@ -30,29 +30,23 @@ export default {
     language: String
   },
   emits: ['toggle-language'],
-  setup(props, { emit }) {
-    const mobileMenuOpen = ref(false)
-
-    const toggleMobileMenu = () => {
-      mobileMenuOpen.value = !mobileMenuOpen.value
-    }
-
-    const closeMobileMenu = () => {
-      mobileMenuOpen.value = false
-    }
-
-    const toggleLanguage = (e) => {
-      e.preventDefault()
-      emit('toggle-language', props.language === 'en' ? 'fr' : 'en')
-      closeMobileMenu()
-    }
-
+  data() {
     return {
-      mobileMenuOpen,
-      toggleMobileMenu,
-      closeMobileMenu,
-      toggleLanguage,
-      t: content[props.language]
+      mobileMenuOpen: false,
+      t: content[this.language]
+    }
+  },
+  methods: {
+    toggleMobileMenu() {
+      this.mobileMenuOpen = !this.mobileMenuOpen
+    },
+    closeMobileMenu() {
+      this.mobileMenuOpen = false
+    },
+    toggleLanguage(e) {
+      e.preventDefault()
+      this.$emit('toggle-language', this.language === 'en' ? 'fr' : 'en')
+      this.closeMobileMenu()
     }
   },
   watch: {
