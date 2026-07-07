@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edouard Pradie - Resume (ATS)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Verdana', Georgia, serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #000;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+            background: white;
+        }
+        .back-link {
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            background: #0066cc;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-family: 'Verdana', sans-serif;
+            font-size: 14px;
+            z-index: 100;
+        }
+        .back-link:hover {
+            background: #004499;
+        }
+        h1 {
+            font-size: 22pt;
+            text-align: center;
+            margin-bottom: 2pt;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 12pt;
+            font-size: 10pt;
+        }
+        .contact-info a {
+            color: #000;
+            text-decoration: none;
+        }
+        h2 {
+            font-size: 12pt;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            margin-top: 14pt;
+            margin-bottom: 6pt;
+            padding-bottom: 2pt;
+        }
+        h3 {
+            font-size: 11pt;
+            margin-top: 6pt;
+            margin-bottom: 2pt;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        .job-title {
+            font-weight: bold;
+        }
+        .job-date {
+            font-style: italic;
+            font-size: 10pt;
+        }
+        .job-company {
+            font-style: italic;
+        }
+        ul {
+            margin-left: 18pt;
+            margin-top: 2pt;
+            margin-bottom: 4pt;
+        }
+        li {
+            margin-bottom: 1pt;
+        }
+        .skills-section {
+            margin-top: 4pt;
+        }
+        .skill-line {
+            margin-bottom: 3pt;
+        }
+        .skill-line strong {
+            display: inline;
+        }
+        .education-item {
+            margin-bottom: 6pt;
+        }
+        .print-btn {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: #0066cc;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-family: 'Verdana', sans-serif;
+            font-size: 14px;
+            z-index: 100;
+        }
+        .print-btn:hover {
+            background: #004499;
+        }
+        .lang-links {
+            position: fixed;
+            top: 1rem;
+            left: 150px;
+            z-index: 100;
+        }
+        .lang-links a {
+            background: #0066cc;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-family: 'Verdana', sans-serif;
+            font-size: 14px;
+            margin-right: 0.5rem;
+            display: inline-block;
+        }
+        .lang-links a:hover {
+            background: #004499;
+        }
+        @media print {
+            body {
+                padding: 0;
+            }
+            .back-link, .print-btn, .lang-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="index_en.html" class="back-link">← Portfolio</a>
+    <div class="lang-links">
+        <a href="cv_fr.html">FR</a>
+    </div>
+    <button class="print-btn" onclick="window.print()">Print / PDF</button>
+
+    <h1>EDOUARD PRADIE</h1>
+    <div class="contact-info">
+        Bordeaux, France | +33 6 89 12 44 24 | <a href="mailto:edouard.pradie@epitech.eu">edouard.pradie@epitech.eu</a><br>
+        <a href="https://www.linkedin.com/in/edouard-pradie">linkedin.com/in/edouard-pradie</a> | <a href="https://github.com/EdouardPradie">github.com/EdouardPradie</a> | <a href="https://edouardpradie.github.io/Portfolio/">edouardpradie.github.io/Portfolio</a>
+    </div>
+
+    <h2>Professional Summary</h2>
+    <p>Software Engineering specialist graduated from Epitech (RNCP 7), with expertise in Data Science and Artificial Intelligence. Experienced in full-stack development, data analysis and machine learning. Bilingual French/English (C1).</p>
+
+    <h2>Professional Experience</h2>
+
+    <div class="job-header">
+        <span class="job-title">Data Scientist - Internship</span>
+        <span class="job-date">March 2026 - August 2026</span>
+    </div>
+    <div class="job-company">ArianeGroup, France</div>
+    <ul>
+        <li>Application of Machine Learning and Deep Learning models on industrial data</li>
+        <li>Analysis and processing of complex data for the space industry</li>
+        <li>Development of artificial intelligence solutions in Python</li>
+        <li>Collaboration with multidisciplinary teams (engineers, data engineers)</li>
+    </ul>
+
+    <div class="job-header">
+        <span class="job-title">Full-Stack Developer - Internship</span>
+        <span class="job-date">2024 (4 months)</span>
+    </div>
+    <div class="job-company">Rocketfid, France (Remote)</div>
+    <ul>
+        <li>Development of web applications with React, Vue.js and PHP</li>
+        <li>Infrastructure deployment and management with Kubernetes</li>
+        <li>Direct communication with clients for requirements gathering</li>
+    </ul>
+
+    <div class="job-header">
+        <span class="job-title">Data Analyst - Internship</span>
+        <span class="job-date">2022 (2.5 months)</span>
+    </div>
+    <div class="job-company">Cegelec Space, France</div>
+    <ul>
+        <li>Data analysis with Python and SQL</li>
+        <li>Space center management</li>
+        <li>Acquisition of space engineering knowledge</li>
+    </ul>
+
+    <h2>Education</h2>
+
+    <div class="education-item">
+        <div class="job-header">
+            <span class="job-title">Epitech - Software Engineering Expert (RNCP 7)</span>
+            <span class="job-date">2021 - 2026</span>
+        </div>
+        <ul>
+            <li>Software Engineering Expert degree (Master's level)</li>
+            <li>Languages: Python, C, C++, Haskell, JavaScript/TypeScript</li>
+            <li>President of Student Board (BDE)</li>
+        </ul>
+    </div>
+
+    <div class="education-item">
+        <div class="job-header">
+            <span class="job-title">Dublin City University (DCU) - Erasmus Year</span>
+            <span class="job-date">2024 - 2025</span>
+        </div>
+        <ul>
+            <li>Specialization in Data Analysis and Artificial Intelligence</li>
+            <li>Immersion in English-speaking environment</li>
+        </ul>
+    </div>
+
+    <div class="education-item">
+        <div class="job-header">
+            <span class="job-title">Lycée Michel Montaigne - High School Diploma</span>
+            <span class="job-date">2018 - 2021</span>
+        </div>
+        <ul>
+            <li>Mathematics / Computer Science Specialization</li>
+            <li>Advanced Mathematics Option</li>
+        </ul>
+    </div>
+
+    <h2>Certifications</h2>
+
+    <div class="education-item">
+        <div class="job-header">
+            <span class="job-title">Google Cloud Data Analytics Certificate</span>
+        </div>
+        <p>Comprehensive training in Google Cloud Platform and data analytics methodologies</p>
+    </div>
+
+    <div class="education-item">
+        <div class="job-header">
+            <span class="job-title">Nvidia Deep Learning Certification</span>
+        </div>
+        <p>Advanced Deep Learning techniques and neural network optimization with Nvidia frameworks</p>
+    </div>
+
+    <h2>Technical Skills</h2>
+    <div class="skills-section">
+        <div class="skill-line"><strong>Languages:</strong> Python, C, C++, JavaScript, TypeScript, Haskell, PHP, SQL, Elixir, Swift, Rust</div>
+        <div class="skill-line"><strong>Frameworks:</strong> React, Vue.js, Flutter, Laravel, Node.js</div>
+        <div class="skill-line"><strong>Data Science:</strong> Machine Learning, Deep Learning, Pandas, NumPy, Scikit-learn, TensorFlow</div>
+        <div class="skill-line"><strong>DevOps:</strong> Docker, Kubernetes, Git, CI/CD</div>
+        <div class="skill-line"><strong>Methodologies:</strong> Agile/SCRUM, Team collaboration, Client communication</div>
+        <div class="skill-line"><strong>Languages:</strong> French (Native), English (C1)</div>
+    </div>
+
+    <h2>Notable Projects</h2>
+
+    <div class="job-header">
+        <span class="job-title">CAMI - Cellular Automata</span>
+        <span class="job-date">Capstone Project</span>
+    </div>
+    <ul>
+        <li>Epitech capstone project</li>
+        <li>Advanced exploration of cellular automata</li>
+    </ul>
+
+    <div class="job-header">
+        <span class="job-title">Rugby Simulator</span>
+        <span class="job-date">Epitech Project</span>
+    </div>
+    <ul>
+        <li>Rugby simulator with match modeling and statistics</li>
+        <li>Sports data analysis</li>
+    </ul>
+
+    <div class="job-header">
+        <span class="job-title">DDScan</span>
+        <span class="job-date">Mobile/Web Application</span>
+    </div>
+    <ul>
+        <li>Mobile and web scan reading application</li>
+        <li>Intuitive and performant user interface</li>
+    </ul>
+
+    <h2>Interests</h2>
+    <p>Rugby | Triathlon | Space Engineering | Mathematics | Aeronautics</p>
+</body>
+</html>
