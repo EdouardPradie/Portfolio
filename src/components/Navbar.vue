@@ -51,7 +51,7 @@ export default {
   computed: {
     cvUrl() {
       const cvFile = this.language === 'fr' ? 'cv_fr.html' : 'cv_en.html'
-      return `/Portfolio/${cvFile}`
+      return `${import.meta.env.BASE_URL}${cvFile}`
     }
   },
   watch: {
