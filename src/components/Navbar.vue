@@ -9,7 +9,7 @@
         <li><a href="#skills" @click="closeMobileMenu">{{ t.nav.skills }}</a></li>
         <li><a href="#projects" @click="closeMobileMenu">{{ t.nav.projects }}</a></li>
         <li><a href="#cami" @click="closeMobileMenu">{{ t.nav.cami }}</a></li>
-        <li><a href="cv.html" class="nav-btn" @click="closeMobileMenu">{{ t.nav.cv }}</a></li>
+        <li><a :href="cvUrl" class="nav-btn" @click="closeMobileMenu" target="_blank">{{ t.nav.cv }}</a></li>
         <li><a href="#" class="nav-btn" @click="toggleLanguage">{{ t.nav.fr }}</a></li>
       </ul>
       <button class="nav-toggle" @click="toggleMobileMenu" aria-label="Menu">
@@ -46,6 +46,12 @@ export default {
       e.preventDefault()
       this.$emit('toggle-language', this.language === 'en' ? 'fr' : 'en')
       this.closeMobileMenu()
+    }
+  },
+  computed: {
+    cvUrl() {
+      const cvFile = this.language === 'fr' ? 'cv_fr.html' : 'cv_en.html'
+      return `${import.meta.env.BASE_URL}${cvFile}`
     }
   },
   watch: {
