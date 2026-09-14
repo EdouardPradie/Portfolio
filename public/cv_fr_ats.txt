@@ -1,0 +1,108 @@
+EDOUARD PRADIE
+
+Bordeaux, France
+Téléphone : +33 6 89 12 44 24
+E-mail : edouard.pradie@epitech.eu
+LinkedIn : linkedin.com/in/edouard-pradie
+GitHub : github.com/EdouardPradie
+Portfolio : edouardpradie.github.io/Portfolio
+
+PROFIL
+
+Ingénieur en développement informatique diplômé d'Epitech (RNCP 7), spécialisé en Data Science et Intelligence Artificielle. Expérience en développement full-stack, analyse de données et machine learning. Bilingue français/anglais (C1).
+
+EXPÉRIENCE PROFESSIONNELLE
+
+Data Scientist - Stage
+ArianeGroup, France
+03/2026 - 08/2026
+
+• Application de modèles de Machine Learning et Deep Learning sur des données industrielles
+• Analyse et traitement de données complexes pour l'industrie spatiale
+• Développement de solutions d'intelligence artificielle en Python
+• Collaboration avec des équipes pluridisciplinaires (ingénieurs, data engineers)
+
+Développeur Full-Stack - Stage
+Rocketfid, France (Télétravail)
+02/2024 - 05/2024
+
+• Développement d'applications web avec React, Vue.js et PHP
+• Déploiement et gestion d'infrastructure avec Kubernetes
+• Communication directe avec les clients pour le recueil de besoins
+
+Analyste de Données - Stage
+Cegelec Space, France
+10/2022 - 12/2022
+
+• Analyse de données avec Python et SQL
+• Gestion d'un centre spatial
+• Acquisition de notions en ingénierie spatiale
+
+FORMATION
+
+Epitech - Expert en Ingénierie Logicielle (RNCP 7)
+2021 - 2026
+
+• Titre d'expert en ingénierie logicielle (Bac+5)
+• Langages : Python, C, C++, Haskell, JavaScript/TypeScript
+• Président du Bureau des Étudiants (BDE)
+
+Dublin City University (DCU) - Année Erasmus
+2024 - 2025
+
+• Spécialisation en Data Analyse et Intelligence Artificielle
+• Immersion en environnement anglophone
+
+Lycée Michel Montaigne - Baccalauréat
+2018 - 2021
+
+• Spécialité Mathématiques / NSI (informatique)
+• Option Mathématiques expert
+
+CERTIFICATIONS
+
+Certificat Google Cloud Data Analytics
+
+Formation complète sur Google Cloud Platform et les méthodologies d'analyse de données
+
+Certification Nvidia Deep Learning
+
+Techniques avancées de Deep Learning et optimisation de réseaux de neurones avec les frameworks Nvidia
+
+COMPÉTENCES TECHNIQUES
+
+Langages : Python, C, C++, JavaScript, TypeScript, Haskell, PHP, SQL, Elixir, Swift, Rust
+
+Frameworks : React, Vue.js, Flutter, Laravel, Node.js
+
+Data Science : Machine Learning, Deep Learning, Pandas, NumPy, Scikit-learn, TensorFlow
+
+DevOps : Docker, Kubernetes, Git, CI/CD
+
+Méthodologies : Agile/SCRUM, Travail en équipe, Communication client
+
+Langues : Français (natif), Anglais (C1)
+
+PROJETS SIGNIFICATIFS
+
+CAMI - Automates Cellulaires
+Projet de fin d'études
+
+• Projet de fin d'études Epitech
+• Exploration avancée des automates cellulaires
+
+Rugby Simulator
+Projet Personnel
+
+• Simulateur de rugby avec modélisation de matchs et statistiques
+• Analyse de données sportives
+
+DDScan
+Application Mobile/Web
+
+• Application mobile et web de lecture de scans
+• Interface utilisateur intuitive et performante
+
+CENTRES D'INTÉRÊT
+
+Rugby, Triathlon, Ingénierie spatiale, Mathématiques, Aéronautique
