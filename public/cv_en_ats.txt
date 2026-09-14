@@ -1,0 +1,108 @@
+EDOUARD PRADIE
+
+Bordeaux, France
+Phone: +33 6 89 12 44 24
+Email: edouard.pradie@epitech.eu
+LinkedIn: linkedin.com/in/edouard-pradie
+GitHub: github.com/EdouardPradie
+Portfolio: edouardpradie.github.io/Portfolio
+
+PROFESSIONAL SUMMARY
+
+Software Engineering specialist graduated from Epitech (RNCP 7), with expertise in Data Science and Artificial Intelligence. Experienced in full-stack development, data analysis and machine learning. Bilingual French/English (C1).
+
+PROFESSIONAL EXPERIENCE
+
+Data Scientist - Internship
+ArianeGroup, France
+03/2026 - 08/2026
+
+• Application of Machine Learning and Deep Learning models on industrial data
+• Analysis and processing of complex data for the space industry
+• Development of artificial intelligence solutions in Python
+• Collaboration with multidisciplinary teams (engineers, data engineers)
+
+Full-Stack Developer - Internship
+Rocketfid, France (Remote)
+02/2024 - 05/2024
+
+• Development of web applications with React, Vue.js and PHP
+• Infrastructure deployment and management with Kubernetes
+• Direct communication with clients for requirements gathering
+
+Data Analyst - Internship
+Cegelec Space, France
+10/2022 - 12/2022
+
+• Data analysis with Python and SQL
+• Space center management
+• Acquisition of space engineering knowledge
+
+EDUCATION
+
+Epitech - Software Engineering Expert (RNCP 7)
+2021 - 2026
+
+• Software Engineering Expert degree (Master's level)
+• Languages: Python, C, C++, Haskell, JavaScript/TypeScript
+• President of Student Board (BDE)
+
+Dublin City University (DCU) - Erasmus Year
+2024 - 2025
+
+• Specialization in Data Analysis and Artificial Intelligence
+• Immersion in English-speaking environment
+
+Lycée Michel Montaigne - High School Diploma
+2018 - 2021
+
+• Mathematics / Computer Science Specialization
+• Advanced Mathematics Option
+
+CERTIFICATIONS
+
+Google Cloud Data Analytics Certificate
+
+Comprehensive training in Google Cloud Platform and data analytics methodologies
+
+Nvidia Deep Learning Certification
+
+Advanced Deep Learning techniques and neural network optimization with Nvidia frameworks
+
+TECHNICAL SKILLS
+
+Languages: Python, C, C++, JavaScript, TypeScript, Haskell, PHP, SQL, Elixir, Swift, Rust
+
+Frameworks: React, Vue.js, Flutter, Laravel, Node.js
+
+Data Science: Machine Learning, Deep Learning, Pandas, NumPy, Scikit-learn, TensorFlow
+
+DevOps: Docker, Kubernetes, Git, CI/CD
+
+Methodologies: Agile/SCRUM, Team collaboration, Client communication
+
+Languages: French (Native), English (C1)
+
+NOTABLE PROJECTS
+
+CAMI - Cellular Automata
+Capstone Project
+
+• Epitech capstone project
+• Advanced exploration of cellular automata
+
+Rugby Simulator
+Personal Project
+
+• Rugby simulator with match modeling and statistics
+• Sports data analysis
+
+DDScan
+Mobile/Web Application
+
+• Mobile and web scan reading application
+• Intuitive and performant user interface
+
+INTERESTS
+
+Rugby, Triathlon, Space Engineering, Mathematics, Aeronautics
